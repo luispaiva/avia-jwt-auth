@@ -1,0 +1,44 @@
+{
+  "name": "luispaiva/avia-jwt-auth",
+  "description": "Plugin desenvolvido para autenticação de usuários utilizando JWT via REST API.",
+  "homepage": "https://github.com/luispaiva/avia-jwt-auth",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "WordPress",
+    "Plugins"
+  ],
+  "authors": [
+    {
+      "name": "Luis Fernando de Paiva",
+      "email": "contato@luispaiva.com.br",
+      "homepage": "https://luispaiva.com.br",
+      "role": "WordPress Developer"
+    }
+  ],
+  "scripts": {
+    "pest": "./vendor/bin/pest",
+    "phpunit": "./vendor/bin/phpunit"
+  },
+  "config": {
+    "vendor-lib": "vendor",
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Avia\\": "inc/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "firebase/php-jwt": "^5.0.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.21"
+  }
+}
