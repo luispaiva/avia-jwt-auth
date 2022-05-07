@@ -1,4 +1,9 @@
 <?php
+/**
+ * Auth Controller Test.
+ *
+ * @package Avia_Jwt_Auth
+ */
 
 namespace Tests\Controllers;
 

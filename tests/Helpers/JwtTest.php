@@ -1,4 +1,9 @@
 <?php
+/**
+ * JWT Test.
+ *
+ * @package Avia_Jwt_Auth
+ */
 
 namespace Tests\Helpers;
 
