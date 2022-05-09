@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "pest": "./vendor/bin/pest",
-    "phpunit": "./vendor/bin/phpunit"
+    "test": "./vendor/bin/phpunit"
   },
   "config": {
     "vendor-lib": "vendor",

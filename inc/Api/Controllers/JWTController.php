@@ -5,15 +5,15 @@
  * @package Avia_Jwt_Auth
  */
 
-namespace Avia\Helpers;
+namespace Avia\Api\Controllers;
 
 use \Firebase\JWT\JWT as FbJWT;
 use \Firebase\JWT\Key;
 
 /**
- * Class JWT
+ * Class JWTController
  */
-class JWT {
+class JWTController {
 
 	/**
 	 * Secret key.

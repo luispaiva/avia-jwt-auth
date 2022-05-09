@@ -7,7 +7,7 @@
 
 namespace Avia\Api\Controllers;
 
-use Avia\Helpers\JWT;
+use Avia\Api\Controllers\JWTController;
 
 /**
  * Class AuthController
@@ -44,7 +44,7 @@ class AuthController {
 			);
 		}
 
-		$data = JWT::generate( $user );
+		$data = JWTController::generate( $user );
 
 		return new \WP_REST_Response( $data, 200 );
 	}
